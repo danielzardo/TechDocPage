@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>      
+        <nav id="navbar">
+            <header>JS Documentation</header>
+            <a href="#" class="nav-link"></a>
+            <a href="#" class="nav-link"></a>
+            <a href="#" class="nav-link"></a>
+            <a href="#" class="nav-link"></a>
+            <a href="#" class="nav-link"></a>
+        </nav>
+        
+        <main id="main-doc">
+            <section class="main-section">
+                <h2 id="JavaScript_and_Java"> </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Pretium nibh ipsum consequat nisl vel pretium lectus.</p>
+                <p>Arcu bibendum at varius vel pharetra. Donec enim diam vulputate ut 
+                    pharetra sit amet aliquam id. Orci phasellus egestas tellus rutrum tellus. 
+                    Cras semper auctor neque vitae tempus quam pellentesque nec nam.</p>
+                <code id="helloWorld">
+                    alert( 'Hello, world!' );
+                </code>
+                <code id="variable">
+                     <br>let user = { <br>
+                        name: "John", <br>
+                        age: 30 <br>
+                      };   
+                </code>
+                <p>Lectus proin nibh nisl condimentum id venenatis a condimentum vitae. </p>
+            </section>
+            <section class="main-section" id="ipsum">
+                <header>Ipsum</header>
+                <p>Ullamcorper eget nulla facilisi etiam dignissim diam quis. 
+                    Massa enim nec dui nunc mattis. Mauris pharetra et ultrices neque ornare aenean euismod 
+                    elementum nisi. 
+                    Eu consequat ac felis donec et odio pellentesque. 
+                    Nisl tincidunt eget nullam non nisi est sit.</p>
+                <p>Facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam. 
+                    Nunc mattis enim ut tellus. Et netus et malesuada fames ac. Fusce ut placerat orci 
+                    nulla pellentesque dignissim enim sit. 
+                    Lacus sed turpis tincidunt id aliquet risus feugiat. </p>
+                <code id="declare">
+                    // first, declare
+                    function sayHi() {
+                        alert("Hello!");
+                    };
+                </code>
+                <code id="object">
+                    // these objects do the same
+                    user = {
+                    sayHi: function() {
+                        alert("Hello");
+                    }
+                    };
+                </code>
+                <p>Odio tempor orci dapibus ultrices in iaculis nunc sed. 
+                    Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. 
+                    Etiam erat velit scelerisque in dictum non consectetur a. 
+                    Elit ut aliquam purus sit amet. 
+                    Turpis nunc eget lorem dolor. Praesent tristique magna sit amet purus. 
+                    Sit amet consectetur adipiscing elit. 
+                    Pharetra massa massa ultricies mi quis hendrerit dolor. 
+                    Tincidunt augue interdum velit euismod.</p>
+            </section>                
+            <section id="lorem" class="main-section">
+                <header>Lorem</header>
+                <p>Lorem mollis aliquam ut porttitor leo. Convallis convallis tellus id interdum velit laoreet id. 
+                    Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. 
+                    Non quam lacus suspendisse faucibus interdum posuere lorem. Ultricies tristique nulla aliquet enim.</p>
+                <p>Tellus in metus vulputate eu scelerisque felis imperdiet. </p>
+                <code id="bound">
+                    function sayHi() {
+                    alert( this.name );
+                      }
+                </code>
+                <p>Nunc aliquet bibendum enim facilisis gravida neque. 
+                    Sapien faucibus et molestie ac feugiat sed lectus vestibulum. 
+                    Dui faucibus in ornare quam.</p>
+            </section>
+            <section id="skateboard" class="main-section">
+                <header>Skateboard</header>
+                <p>Purus faucibus ornare suspendisse sed nisi lacus sed viverra. 
+                    Ac ut consequat semper viverra nam. Ut pharetra sit amet aliquam id.</p>
+                <p>Vitae purus faucibus ornare suspendisse. Amet consectetur adipiscing elit ut aliquam. 
+                    Interdum posuere lorem ipsum dolor sit. Viverra nam libero justo laoreet.</p>
+                <code id="undefined">
+                    function sayHi() {
+                        alert(this);
+                      }
+                      sayHi(); // undefined
+                </code>
+                <p>Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. 
+                    Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. 
+                    Rhoncus urna neque viverra justo nec ultrices. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus. 
+                    Ut tristique et egestas quis ipsum suspendisse ultrices. Vel risus commodo viverra maecenas. 
+                    Id volutpat lacus laoreet non curabitur gravida arcu ac tortor. </p>
+            </section>
+            <section id="kombucha" class="main-section">
+                <header>Kombucha</header>
+                <p>Fringilla est ullamcorper eget nulla facilisi. 
+                    Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. 
+                    Potenti nullam ac tortor vitae purus faucibus ornare. 
+                    Adipiscing commodo elit at imperdiet dui. Convallis convallis tellus id interdum. </p> 
+                <ul>
+                    <li>Tellus cras adipiscing enim eu turpis</li>
+                    <li>Varius sit amet mattis vulputate enim nulla aliquet.</li>
+                    <li>Ut etiam sit amet nisl purus in mollis nunc sed. </li>
+                    <li>Integer vitae justo eget magna fermentum iaculis eu.</li>
+                    <li>Accumsan in nisl nisi scelerisque. </li>
+                </ul>             
+            </section>                      
+        </main>
+    </body>
+
+    <div id="app"></div>
+    <script src="bundle.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
