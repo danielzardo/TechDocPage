@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.5;
+}
+#navbar {
+    position: fixed;
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+#main-doc {
+     margin-left: 240px;
+}
+#navbar ul {
+    list-style-type: none;
+
+}
+
+#navbar ul li {
+    padding: 2em 0em 2em 1em;
+    border: 1em 0em 1em 1em;
+    
+
+}
