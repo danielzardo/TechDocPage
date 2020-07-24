@@ -55,20 +55,19 @@ code {
     padding: 5px;
     margin: 10px;
     border-radius: 5px;
+    
   }
 
-  @media only screen and (max-width: 400px) {
-    
-    #main-doc {
-     margin-left: -10px;
-    }
+  @media (max-width: 400px) {
   
     #navbar {
-        position: fixed;
+        position: unset;
     }
-  
+    #main-doc {
+      margin-left: 0;
+    }
     code {
-      margin-left: -20px;
+      margin-left: -130px;
       width: 100%;
       padding: 15px;
       padding-left: 10px;
